@@ -1,0 +1,31 @@
+.screen{
+    background-color: #001E34;
+    width: 400px;
+    height: 300px;
+    border-radius: 15px 15px 0 0;
+    align-items: center;
+    justify-content: end;
+    display: flex;
+    flex-direction: column;
+}
+
+.info{
+    border: none;
+    background-color: #001E34;
+    text-align: end;
+    font-size: 60px;
+    width: 300px;
+    color: #E4E7E9;
+    outline: none;
+}
+
+.output{
+    border: none;
+    background-color: #001E34;
+    text-align: end;
+    font-size: 60px;
+    width: 300px;
+    color: #E4E7E9;
+    outline: none;
+}
+

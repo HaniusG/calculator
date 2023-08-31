@@ -1,27 +1,29 @@
-import Button from "./Button/Button";
+import ActionButton from "./Buttons/ActionButton";
+import FuncButton from "./Buttons/FuncButton";
+import NumButton from "./Buttons/NumButton";
 import "./button-board.css"
 
 const ButtonBoard = () => {
     return (
         <div className="buttonBoard">
-            <Button value="C" />
-            <Button value="<" />
-            <Button value="/" />
-            <Button value="x" />
-            <Button value="7" />
-            <Button value="8" />
-            <Button value="9" />
-            <Button value="-" />
-            <Button value="4" />
-            <Button value="5" />
-            <Button value="6" />
-            <Button value="+" />
-            <Button value="1" />
-            <Button value="2" />
-            <Button value="3" />
-            <Button buttonClassName="equals" value="=" />
-            <Button buttonClassName="zero" value="0" />
-            <Button value="." />
+            <ActionButton value="C" />
+            <ActionButton value="<"/>
+            <FuncButton value="/" />
+            <FuncButton value="x" />
+            <NumButton value="7" />
+            <NumButton value="8" />
+            <NumButton value="9" />
+            <FuncButton value="-" />
+            <NumButton value="4" />
+            <NumButton value="5" />
+            <NumButton value="6" />
+            <FuncButton value="+" />
+            <NumButton value="1" />
+            <NumButton value="2" />
+            <NumButton value="3" />
+            <ActionButton buttonClassName="equals" value="=" />
+            <NumButton buttonClassName="zero" value="0" />
+            <NumButton value="." />
 
         </div>
 
